@@ -1,0 +1,3 @@
+com.sample.persistence.entities
+com.sample.persistence.manager
+com.sample.persistence.utilities.context

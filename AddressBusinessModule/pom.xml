@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.sample</groupId>
+    <artifactId>AddressProject</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.sample.addmgm</groupId>
+  <artifactId>AddressBusinessModule</artifactId>
+  <name>Address Managment</name>
+  
+   <dependencies>
+  	<dependency>
+  		<groupId>org.jboss.javaee</groupId>
+  		<artifactId>jboss-ejb-api-3.0_spec</artifactId>
+  		<version>5.0.2.GA</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.sample.persistence</groupId>
+  		<artifactId>PersistenceModule</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.0</version>
+			<scope>test</scope>
+	</dependency>	
+  	<dependency>
+  		<groupId>org.jsoup</groupId>
+  		<artifactId>jsoup</artifactId>
+  		<version>1.6.2</version>
+  	</dependency>
+  	<dependency>
+		 <groupId>javax.mail</groupId>
+	 	<artifactId>mail</artifactId>
+	 	<version>1.4.3</version>
+    </dependency>
+   </dependencies>
+</project>
